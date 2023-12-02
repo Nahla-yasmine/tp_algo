@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+/* Hero section starts here */
+.hero{
+    padding: 2rem 7rem;
+    min-height: 100vh;
+}
+
+.hero nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.hero nav ul li a{
+    text-decoration: none;
+    color: hsl(229, 31%, 21%);
+    font-size: .9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.hero nav ul li a:hover,
+.hero nav ul li a:focus
+{
+    color: hsl(0, 94%, 66%);
+}
+
+.hero nav ul li:nth-child(4) a{
+    padding: .55rem 1.5rem;
+    background: hsl(0, 94%, 66%);
+    color: hsl(0, 0%, 100%);
+    border-radius: .3rem;
+    border: 2px solid hsl(0, 94%, 66%);
+    box-shadow: 0 4px .3rem 0 rgba(0, 0, 0, 0.247);
+}
+
+.hero nav ul li:nth-child(4) a:hover{
+    background: transparent;
+    color: hsl(0, 94%, 66%);
+}
+
+.hero nav .mobile-menu{
+    display: none;
+}
+
+.hero .hero-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.hero .hero-row .left-col,
+.hero .hero-row .right-col{
+    flex-basis: 50%;
+}
+
+.hero .hero-row .left-col .left-col-text h1{
+    font-size: 2.5rem;
+    color: hsl(229, 31%, 21%);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.hero .hero-row .left-col .left-col-text p{
+    font-size: 1.2rem;
+    color: hsl(229, 8%, 60%);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.hero .hero-row .left-col .left-col-text .hero-links{
+    display: flex;
+    align-items: center;
+}
+
+.hero .hero-row .left-col .left-col-text .hero-links a{
+    margin-right: 1rem;
+    padding: .7rem 1rem;
+    color: hsl(0, 0%, 100%);
+    background: hsl(231, 69%, 60%);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: .3rem;
+    border: 2px solid hsl(231, 69%, 60%);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.hero .hero-row .left-col .left-col-text .hero-links a:hover,
+.hero .hero-row .left-col .left-col-text .hero-links a:focus{
+    background: transparent;
+    color: hsl(231, 69%, 60%);
+}
+
+.hero .hero-row .left-col .left-col-text .hero-links a:nth-child(2){
+    background: hsla(165, 17%, 95%, 0.664);
+    border: 2px solid hsla(165, 17%, 95%, 0.664);
+    color: hsl(229, 31%, 21%);
+    box-shadow: 0 0 .5rem rgba(87, 71, 71, 0.247);
+}
+
+.hero .hero-row .left-col .left-col-text .hero-links a:nth-child(2):hover,
+.hero .hero-row .left-col .left-col-text .hero-links a:nth-child(2):focus{
+    background: transparent;
+    border: 2px solid hsl(229, 31%, 21%);
+}
+
+.hero .hero-row .right-col{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+
+
+#logo{
+    width:50px;
+}

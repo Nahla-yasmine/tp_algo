@@ -1,0 +1,43 @@
+.node circle {
+  fill: #fff;
+  stroke: hsl(231, 69%, 60%);
+  stroke-width: 3px;
+}
+
+.node text { font: 16px sans-serif; }
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+button{
+  margin-right: .5rem;
+  padding: .7rem 1rem;
+  color: hsl(0, 0%, 100%);
+  background: hsl(231, 69%, 60%);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: .3rem;
+  border: 2px solid hsl(231, 69%, 60%);
+  transition: .5s;
+  cursor: pointer;
+}
+input{
+  margin-right: .5rem;
+  padding: .7rem 1rem;
+  color: hsl(0, 8%, 3%);
+  background: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: .3rem;
+  border: 2px solid hsl(231, 69%, 60%);
+  transition: .5s;
+  cursor: pointer;
+}
