@@ -1,0 +1,2 @@
+# tp_algo
+Exploring Algorithms: Enhancing Understanding Through Practical Projects This webpages represents our collaborative efforts in studying advanced topics like Binary Search Trees (BST), analyzing their structures, uncovering similarities, diving into complexities, and understanding metaheuristics. 
